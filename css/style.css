@@ -1,0 +1,101 @@
+﻿body {
+	background-color: #e8ebf4;
+	font-family: "Palatino Linotype", "Book Antiqua", "Palatino", "serif";
+	color: #333333;
+	font-style: normal;
+	font-weight: 400;
+	 width: 650px; 
+	 margin: 0 auto; 
+	 vertical-align: top;
+}
+
+.navtabs { 
+	list-style:none;
+	height:1.9em;
+	padding:0; 
+	margin:0;
+	border: none; 
+}
+
+.navtabs li { 
+	float:left;
+	margin-right:0.2em;  
+}
+
+.navtabs li a { 
+	display:block; 
+	padding:0 1.5em; 
+	text-decoration:none; 
+	border:0.1em solid #000000; 
+	border-bottom:0 solid #000000; 
+	font:bold 1em/2em palatino; 
+	color: #333333;
+	background-color:#bdbfc1;
+}
+
+.navtabs li a.current {
+	border-bottom: 0.1em solid #FFFFFF;
+	background-color: #FFFFFF;
+}
+
+.navtabs li a.current:hover {
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+.navtabs li a:hover { 
+	background-color:#007698;
+	color:#FFFFFF;
+	text-decoration:none; 
+}
+
+.pagewelcome {
+	color: #333333;
+	font-size: 28px;
+	text-align: left;
+}
+
+#bodycontainer {
+	margin:0px auto;
+	width: 600px;
+	background-color: #FFFFFF;
+	overflow: auto;		
+	font-size: 16px;
+	padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    vertical-align: top;
+    
+	
+}		
+
+#footerdiv {
+	margin: 0px auto;
+	width: 650px;
+	height: 60px;
+	background-color: #FFFFFF;
+	color: #7D7D8F;
+	text-align: center;
+	font-size: 13px;	
+	vertical-align: top;
+	float: left;
+}
+
+.embedframe {
+	width: 100%;
+	padding: 0;
+    margin: 0;
+}
+	
+.centeredimages {
+	text-align: center
+}
+	
+#meaningbutton{
+    position:absolute;
+    top:600px;
+    left:600px;
+    width: 200px;
+}​
+	
